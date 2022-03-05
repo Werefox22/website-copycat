@@ -92,7 +92,7 @@ header li {
 aside {
 	flex-grow: 1;
 	margin: 2em;
-	margin-right: 0;
+	margin-right: .5em;
 }
 
 aside a, aside a:visited {
@@ -109,7 +109,39 @@ main {
 
 #dummy {
 	flex-grow: 1;
+
+	margin: 2em;
+	padding: 2em;
 }
+/* * * * * * * * * * * *
+	Game
+* * * * * * * * * * * */
+.game {
+	display: flex;
+	background-color: var(--carbon);
+
+	margin: 2em;
+	box-shadow: 5px 5px 5px black;
+}
+
+.game img {
+	flex-grow: 3;
+}
+
+.game div {
+	flex-grow: 2;
+
+	padding: 2em;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.game p {
+	width: 60%;
+	margin: 0;
+}
+
 
 /* * * * * * * * * * * *
 	Footer
