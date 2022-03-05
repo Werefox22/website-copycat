@@ -14,5 +14,6 @@
 
 body {
 	background-color: var(--metal);
-	color: var(--steam)
+	color: var(--steam);
+	font-family: 'Roboto', sans-serif;
 }
