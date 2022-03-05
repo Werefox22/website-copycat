@@ -10,6 +10,7 @@
 	--metal: #1a293a;
 	--steam: #c5c3c0;
 	--sea: #2a475e;
+	--sky: #66c0f4;
 	--algae: #5c7e10;
 }
 
@@ -77,4 +78,43 @@ header li {
 	min-height: 30vh;
 	width: 100%;
 	background-color: rgb(214, 61, 0);
+}
+
+/* * * * * * * * * * * *
+	Main
+* * * * * * * * * * * */
+#center {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Aside */
+aside {
+	flex-grow: 1;
+	margin: 2em;
+	margin-right: 0;
+}
+
+aside a, aside a:visited {
+	color: var(--sky);
+}
+
+aside a:hover {
+	color: white;
+}
+
+main {
+	flex-grow: 4;
+}
+
+#dummy {
+	flex-grow: 1;
+}
+
+/* * * * * * * * * * * *
+	Footer
+* * * * * * * * * * * */
+footer {
+	background-color: var(--carbon);
+	padding: 1em;
 }
