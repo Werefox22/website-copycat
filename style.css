@@ -6,14 +6,38 @@
 */
 
 :root {
-	--black: #171a21;
+	--carbon: #171a21;
 	--metal: #1a293a;
 	--steam: #c5c3c0;
 	--sea: #2a475e;
+	--algae: #5c7e10;
 }
 
+/* * * * * * * * * * * *
+	General
+* * * * * * * * * * * */
 body {
 	background-color: var(--metal);
 	color: var(--steam);
 	font-family: 'Roboto', sans-serif;
+}
+
+a, a:visited {
+	color: var(--steam);
+}
+
+a:hover {
+	color: white;
+}
+
+.green {
+	background-color: var(--algae);
+	color: var(--steam);
+}
+
+/* * * * * * * * * * * *
+	Header
+* * * * * * * * * * * */
+header {
+	background-color: var(--carbon);
 }
