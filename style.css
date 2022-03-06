@@ -51,6 +51,9 @@ a:hover {
 .green {
 	background-color: var(--algae);
 	color: var(--steam);
+
+	border: hidden;
+	border-radius: 3px;
 }
 
 /* * * * * * * * * * * *
@@ -63,6 +66,7 @@ header {
 
 header ul {
 	text-align: center;
+	padding: 0;
 }
 
 header li {
@@ -150,4 +154,31 @@ main {
 footer {
 	background-color: var(--carbon);
 	padding: 1em;
+
+	font-size: small;
+}
+
+footer div {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1em;
+}
+
+footer .logo {
+	max-width: 5vw;
+}
+
+footer li {
+	display: inline;
+	text-align: center;
+
+	border: 1px var(--steam);
+	border-style: hidden solid hidden hidden;
+
+	padding: 0 1em;
+}
+
+/* Make border only appear inbetween links */
+footer li:last-child {
+	border-style: none;
 }
